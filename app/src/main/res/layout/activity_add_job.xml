@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="@dimen/scroll_padding"
-    tools:context="com.sara.helpyou.activities.Signup">
+    android:padding="@dimen/scroll_padding">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -12,7 +11,7 @@
         android:orientation="vertical">
 
         <EditText
-            android:id="@+id/signup_name"
+            android:id="@+id/add_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/layout_margin"
@@ -23,7 +22,7 @@
             android:textSize="20sp" />
 
         <EditText
-            android:id="@+id/signup_pass"
+            android:id="@+id/add_pass"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/layout_margin"
@@ -33,18 +32,8 @@
             android:textColor="@android:color/black"
             android:textSize="20sp" />
 
-        <EditText
-            android:id="@+id/signup_address"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="@dimen/layout_margin"
-            android:background="@drawable/circle_shape"
-            android:hint="@string/signup_address"
-            android:padding="@dimen/padding"
-            android:textColor="@android:color/black"
-            android:textSize="20sp" />
         <Spinner
-            android:id="@+id/signup_city"
+            android:id="@+id/addJob_city"
             android:layout_width="match_parent"
             android:layout_height="@dimen/spinner_height"
             android:layout_margin="@dimen/layout_margin"
@@ -54,26 +43,17 @@
             android:textSize="20sp" />
 
         <EditText
-            android:id="@+id/signup_phone"
+            android:id="@+id/add_desc"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/layout_margin"
             android:background="@drawable/circle_shape"
-            android:hint="@string/signup_phone"
+            android:hint="@string/add_desc"
+            android:gravity="top"
+            android:lines="5"
             android:padding="@dimen/padding"
             android:textColor="@android:color/black"
             android:textSize="20sp" />
-
-        <Spinner
-            android:id="@+id/signup_job"
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/spinner_height"
-            android:layout_margin="@dimen/layout_margin"
-            android:background="@drawable/circle_shape"
-            android:padding="@dimen/padding"
-            android:textColor="@android:color/black"
-            android:textSize="20sp" />
-
         <Button
             android:id="@+id/signup"
             android:layout_width="match_parent"
@@ -81,9 +61,8 @@
             android:layout_margin="@dimen/layout_margin"
             android:background="@drawable/circle_shape"
             android:padding="@dimen/padding"
-            android:text="@string/signup"
+            android:text="@string/add"
             android:textColor="@android:color/black"
             android:textSize="20sp" />
-
     </LinearLayout>
 </ScrollView>

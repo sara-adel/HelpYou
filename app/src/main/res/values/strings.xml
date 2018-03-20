@@ -6,4 +6,35 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+
+    <!--signup activity-->
+    <string name="signup_name">Name</string>
+    <string name="signup_pass">Password</string>
+    <string name="signup_address">Address</string>
+    <string name="signup_city">City</string>
+    <string name="signup_phone">Phone</string>
+    <string name="signup_job">Job Title</string>
+    <string name="signup">Signup</string>
+
+    <!--home activity-->
+    <!--nav_header_home-->
+    <string name="user_name">Sara Adel</string>
+    <string name="user_email">saraadel2063@gmail.com</string>
+
+    <!--activity_home_drawer-->
+    <string name="profile">Profile</string>
+    <string name="home">Home</string>
+    <string name="aboutUs">About Us</string>
+    <string name="logout">Logout</string>
+
+    <!--add job fragment-->
+    <string name="add_desc">Description</string>
+    <string name="add">Add</string>
+
+    <!--home user-->
+    <string name="search_user">User</string>
+
+    <!--about-->
+    <string name="about">This application help you to find fixer near to your apartment</string>
+
 </resources>
